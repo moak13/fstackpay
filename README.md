@@ -1,1 +1,1 @@
-# fstackpay
+# fstackpay - cryptocurrency payment platform
