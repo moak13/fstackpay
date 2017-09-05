@@ -41,6 +41,14 @@ p {
 	line-height: 1.5rem;
 	font-size: 1.1rem;
 }
+.head-title {
+	margin-bottom: 40px;
+}
+.head-title p {
+	margin-top: 20px;
+	color: #000;
+	font-size: 15px;
+}
 .home {
 	background: url(../img/dribbble_wallet.jpg) no-repeat center center;
 	color: #000;
@@ -85,6 +93,19 @@ p {
 	line-height: 1.7em;
 	background: transparent;
 	border: 2px solid;
+	position: relative;
+}
+.home-content .free-account a{
+	margin-top: 24px;
+	color: Black;
+	font-size: 20px;
+	font-weight: 500;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	padding: 6px 20px;
+	line-height: 1.7em;
+	background: transparent;
 	position: relative;
 }
 .home-content .free-account:hover:after{
@@ -182,4 +203,34 @@ p {
 }
 .navbar-brand {
 	margin-top: -5px;
+}
+.pod {
+	background: #fff;
+	padding: 40px 15px;
+	border: 1px solid #ececec;
+	box-shadow: 2px 2px 5px 0 rgba(55, 50, 40, .20);
+	-webkit-box-shadow: 2px 2px 5px 0 rgba(55, 50, 40, .20);
+	-moz-box-shadow: 2px 2px 5px 0 rgba(55, 50, 40, .20);
+	-o-box-shadow: 2px 2px 5px 0 rgba(55, 50, 40, .20);
+	-ms-box-shadow: 2px 2px 5px 0 rgba(55, 50, 40, .20);
+	transition: .3s ease-in-out;
+	-moz-transition: .3s ease-in-out;
+	-webkit-transition: .3s ease-in-out;
+}
+.pod:hover{
+	background: #82ca9c;
+	color: #fff;
+	cursor: pointer;
+}
+.pod:hover img {
+	image
+}
+.pod:hover h4 {
+	color: #fff;
+}
+.pod:hover p {
+	color: #fff;
+}
+.pod img {
+	margin-bottom: 20px;
 }
